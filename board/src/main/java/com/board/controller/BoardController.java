@@ -29,6 +29,7 @@ public class BoardController extends UiUtils{
 	@Autowired
 	private BoardService boardService;
 
+	
 
 	
 	@GetMapping(value = "/board/write.do")
